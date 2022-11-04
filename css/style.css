@@ -1,0 +1,116 @@
+body,
+h1,
+h2 {
+  pad: 0;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.onBg {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  background-color: transparent;
+  border: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.wall {
+  height: 25vh;
+  display: flex;
+}
+
+.wall .top {
+  margin: 10px 10px 0 auto;
+  font-size: 1.5rem;
+}
+
+#clock {
+  text-align: center;
+  font-size: 7vw;
+}
+
+#userNameForm {
+  text-align: center;
+}
+
+#userNameForm input {
+  width: 30%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.4;
+  text-align: center;
+}
+
+#userNameText {
+  text-align: center;
+  font-size: 3vw;
+}
+
+.question {
+  text-align: center;
+  margin-top: 6%;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+#todoForm {
+  text-align: center;
+  margin-top: 2%;
+}
+
+#todoForm input {
+  width: 15%;
+  padding: 7px 7px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+#todoList {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 1vw;
+  margin-top: 1%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.footer-content {
+  display: flex;
+}
+
+#quoteText {
+  margin: 0 auto;
+  font-size: 2vh;
+}
+
+ul {
+  list-style-type: none;
+}
